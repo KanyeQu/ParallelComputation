@@ -19,7 +19,7 @@ Quick start:
 ./closest -g 10000000 -d 7
 ```
 
-This will calculate the shortest distance between 10000000 points, recursion depth is 7 ( $$2^{8} \approx 256$$ processes invoke).
+This will calculate the shortest distance between 10000000 points, recursion depth is 7 ( $2^{8} \approx 256$ processes invoke).
 
 
 
@@ -57,7 +57,7 @@ With some experiment, the best performance of this CPU can be achieved by recurs
 
 
 
-Find closest within 10000000($$10^7$$) points. Finishes in 1691.88ms
+Find closest within 10000000($10^7$) points. Finishes in 1691.88ms
 
 ```bash
 hacker@ubuntu$ ./closest -g 10000000 -d 7
@@ -69,7 +69,7 @@ Sorted the points in 1339.02ms.
 
 
 
-Find closest within 20000000($$2 \times 10^7$$) points. Finishes in 3751.19ms
+Find closest within 20000000($2 \times 10^7$) points. Finishes in 3751.19ms
 
 ```bash
 hacker@ubuntu$ ./closest -g 20000000 -d 7
@@ -81,7 +81,7 @@ Sorted the points in 2793.10ms.
 
 
 
-Goes to $$3 \times 10^7$$, Finishes in 6698.18ms. Compare to Single-Process, the performance is $$\frac{145682.45}{6698.18} \approx $$ 21 times better
+Goes to $3 \times 10^7$, Finishes in 6698.18ms. Compare to Single-Process, the performance is $\frac{145682.45}{6698.18} \approx $ 21 times better
 
 ```bash
 hacker@ubuntu$ ./closest -g 30000000 -d 7
